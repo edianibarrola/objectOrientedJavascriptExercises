@@ -13,9 +13,6 @@ class Printer{
     printerTest() { 
         return `My brand is ${this._brand} and my model ${this._model}`; 
     } 
-    getModel(){
-        return `The model of the printer is: ${this._model}`;
-    }
     
     //you can add new class functions here
 }
